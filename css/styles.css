@@ -1,0 +1,120 @@
+#title {
+    background-color: #ffeaca;
+    color: #52006a;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    line-height: 1;
+    font-size: 4rem;
+}
+h3 {
+    font-size: 35px;
+    font-style: bold italic;
+    color: #4f0e0e;
+}
+h2 {
+    line-height: 1.5rem;
+    font-size: 30px;
+    color: green;
+}
+p {
+    color: #423f3e;
+    font-size: 20px;
+}
+btn-color {
+    color: #f38ba0;
+}
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+}
+.navbar {
+    /* padding:0 0 4.5rem; */
+    width: 100%;
+}
+.nav-item {
+    margin-left: 3rem;
+}
+.download-button {
+    margin: 5% 3% 5% 3%;
+}
+/*title image*/
+#title {
+    text-align: left;
+}
+.title-image {
+    width: 60%;
+    margin: 10%;
+    transform: rotate(-10deg);
+    border-radius: 50px;
+}
+
+/*features section*/
+#features {
+    padding: 7% 15%;
+    background-color: #fff5de;
+}
+
+/*Testimonials Section*/
+
+#testimonials {
+    background-color: #ffeaca;
+    padding: 7% 15%;
+}
+.testimonials-img {
+    width: 15%;
+    margin: 5%;
+    border-radius: 100%;
+}
+/*Press Section*/
+#press {
+    background-color: #ffeaca;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing {
+    padding: 40px;
+    background-color: #fff5de;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+.card {
+    min-height: 400px;
+}
+#cta {
+    padding: 3% 15%;
+    background-color: #ffeaca;
+}
+#footer {
+    padding: 0;
+    background-color: #fff5de;
+}
+.fab {
+    padding: 10px;
+}
+.signup {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+}
